@@ -1,7 +1,7 @@
-# fullOrbit.py - Orbital Visualization Tool
+# rpoPlan.py - Orbital Visualization Tool
 
 ## Overview
-`fullOrbit.py` is a Python script that creates interactive 3D visualizations of spacecraft orbital data. It generates a dual-panel visualization showing both a global Earth-centered view and a deputy-centered relative view of spacecraft trajectories.
+`rpoPlan.py` is a Python script that creates interactive 3D visualizations of spacecraft orbital data. It generates a dual-panel visualization showing both a global Earth-centered view and a deputy-centered relative view of spacecraft trajectories.
 
 ## Features
 - **Dual-panel visualization**:
@@ -37,24 +37,24 @@
 ## Usage
 ### Basic Usage
 ```
-python fullOrbit.py
+python rpoPlan.py
 ```
 This will run the visualization using the default CSV file path (`../CelestialChoreography/Data/RpoPlan.csv`).
 
 ### Command Line Arguments
 - `--csv`: Path to the CSV file with orbital data
   ```
-  python fullOrbit.py --csv path/to/your/data.csv
+  python rpoPlan.py --csv path/to/your/data.csv
   ```
 
 - `--record`: Record the animation to a GIF file
   ```
-  python fullOrbit.py --record
+  python rpoPlan.py --record
   ```
 
 - `--output`: Specify output path for the recorded animation
   ```
-  python fullOrbit.py --record --output path/to/save/animation.mp4
+  python rpoPlan.py --record --output path/to/save/animation.mp4
   ```
 
 ## Input Data Format
